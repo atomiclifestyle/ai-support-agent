@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "tweet_101",
+    "incoming_text": "@AppleSupport My iPhone screen went completely black while updating.",
+    "ground_truth_intent": "hardware_issue",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Requires diagnostic troubleshooting and hardware repair handling.",
+    "ground_truth_reference_reply": "We can help look into this. Please DM us your device model and current iOS version to get started."
+  },
+  {
+    "id": "tweet_102",
+    "incoming_text": "@AppleSupport why was I charged $14.99 yesterday?? I didn't buy anything!!",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Involves personal account billing details and transaction lookup.",
+    "ground_truth_reference_reply": "We'd be glad to help clarify this charge. Send us a DM so we can securely check your account details."
+  },
+  {
+    "id": "tweet_103",
+    "incoming_text": "@AppleSupport My order #W987654321 was supposed to arrive today butUPS says delayed",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Order tracking requires accessing private order information.",
+    "ground_truth_reference_reply": "Let's check on your shipment status together. Please send us a DM with your order number and zip code."
+  },
+  {
+    "id": "tweet_104",
+    "incoming_text": "@AppleSupport What time does the Fifth Avenue Apple Store close on Sundays?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Our Fifth Avenue store is open 24/7! You can visit us anytime, including Sundays."
+  },
+  {
+    "id": "tweet_105",
+    "incoming_text": "@AppleSupport AirPods right earbud completely stopped working after dropping in water. HELP!",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Requires hardware assessment and replacement options evaluation.",
+    "ground_truth_reference_reply": "We know how important your AirPods are. DM us so we can discuss repair or replacement options with you."
+  },
+  {
+    "id": "tweet_106",
+    "incoming_text": "@AppleSupport How do I trade in my old iPhone 11 online?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "You can easily check trade-in values and start the process online at apple.com/shop/trade-in."
+  },
+  {
+    "id": "tweet_107",
+    "incoming_text": "@AppleSupport BRO UR NEW UPDATE BROKE MY BATTERY!! 100 to 10 in 20 MINS FIX THIS NOW ABSOLUTE TRASH",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "High emotional intensity; technical battery diagnostic required.",
+    "ground_truth_reference_reply": "We hear your frustration and want to help get your battery working properly. DM us your iPhone model and iOS version."
+  },
+  {
+    "id": "tweet_108",
+    "incoming_text": "@AppleSupport How long is the standard return policy for a MacBook bought online?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Items purchased online can be returned within 14 calendar days from the date you receive them."
+  },
+  {
+    "id": "tweet_109",
+    "incoming_text": "@AppleSupport Trade in return kit hasn't arrived. It's been 2 weeks!!",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Trade-in logistics issue requiring account lookup.",
+    "ground_truth_reference_reply": "We'd like to get another trade-in kit sent your way. Please DM us your trade-in quote number and full address."
+  },
+  {
+    "id": "tweet_110",
+    "incoming_text": "@AppleSupport I got billed twice for my iCloud+ 200GB subscription this month.",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Duplicate charge issue requiring financial account access.",
+    "ground_truth_reference_reply": "Double charges are definitely something we want to fix. DM us your Apple ID email so we can investigate."
+  },
+  {
+    "id": "tweet_111",
+    "incoming_text": "@AppleSupport face id non functional on iphone 13 pro max after iOS 17.4 update pls fix",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Biometric hardware/software failure needing diagnostic testing.",
+    "ground_truth_reference_reply": "We can assist with getting Face ID back up and running. Please send us a DM to walk through troubleshooting."
+  },
+  {
+    "id": "tweet_112",
+    "incoming_text": "@AppleSupport Can I upgrade my iCloud storage from my Windows PC?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Yes! You can upgrade storage using iCloud for Windows or by visiting iCloud.com."
+  },
+  {
+    "id": "tweet_113",
+    "incoming_text": "@AppleSupport Package delivered according to tracking but NOTHING IS AT MY DOOR. STOLEN???",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "High urgency missing package issue requiring carrier investigation.",
+    "ground_truth_reference_reply": "We want to help ensure you receive your package. DM us your order number right away so we can assist."
+  },
+  {
+    "id": "tweet_114",
+    "incoming_text": "@AppleSupport my card got declined for app store purchase even though funds are available smh",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Payment processing decline requiring payment profile verification.",
+    "ground_truth_reference_reply": "Let's work together to figure out why your card is declining. DM us to get started securely."
+  },
+  {
+    "id": "tweet_115",
+    "incoming_text": "@AppleSupport Mac screen flickering crazy rainbow lines everywhere after sleeping mode",
+    "ground_truth_intent": "hardware_issue",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Display hardware defect symptom requiring service support.",
+    "ground_truth_reference_reply": "Display issues can be concerning. Please send us a DM with your Mac model and macOS version so we can help."
+  },
+  {
+    "id": "tweet_116",
+    "incoming_text": "@AppleSupport Does AppleCare+ cover international repairs for iPad?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Yes, AppleCare+ coverage for iPad includes global service options in countries where AppleCare is available."
+  },
+  {
+    "id": "tweet_117",
+    "incoming_text": "@AppleSupport can u guys cancel my order W112233445 before it ships??",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Order modification request requiring account access.",
+    "ground_truth_reference_reply": "We can check if your order can still be canceled. DM us your order number and zip code as soon as possible."
+  },
+  {
+    "id": "tweet_118",
+    "incoming_text": "@AppleSupport Refund for accidental in-app purchase was denied. I need to appeal this NOW.",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Refund denial review requiring supervisor/escalated account review.",
+    "ground_truth_reference_reply": "We understand your frustration and can look into your refund claim. Send us a DM with your claim number."
+  },
+  {
+    "id": "tweet_119",
+    "incoming_text": "@AppleSupport Apple Watch Series 8 won't pair with new iPhone 15 pro. stuck on spinning circle",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Pairing sync issue requiring guided technical steps.",
+    "ground_truth_reference_reply": "We can help get your Watch paired. Please DM us your current watchOS and iOS versions."
+  },
+  {
+    "id": "tweet_120",
+    "incoming_text": "@AppleSupport What is the battery health percentage threshold for free replacement under AppleCare+?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Under AppleCare+, battery replacement is covered if your battery retains less than 80% of its original capacity."
+  },
+  {
+    "id": "tweet_121",
+    "incoming_text": "@AppleSupport hey my app store is in chinese all of a sudden??? I live in Texas wtf",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Noisy input; regional account settings issue.",
+    "ground_truth_reference_reply": "We can help you update your App Store country settings back to your local region. Send us a DM to start."
+  },
+  {
+    "id": "tweet_122",
+    "incoming_text": "@AppleSupport Trade in value given was $200 less than quoted online because of scratch??? insane",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Trade-in value dispute requiring inspection details.",
+    "ground_truth_reference_reply": "We understand your disappointment with the updated trade-in value. DM us your trade-in quote number so we can review."
+  },
+  {
+    "id": "tweet_123",
+    "incoming_text": "@AppleSupport Subscription for Apple Fitness+ renewed automatically, want money back pls",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Subscription cancellation and refund request.",
+    "ground_truth_reference_reply": "We can help guide you through subscription cancellations and refund requests. DM us your Apple ID email."
+  },
+  {
+    "id": "tweet_124",
+    "incoming_text": "@AppleSupport MacBook Pro M2 trackpad physical click isn't working anymore, totally stuck down",
+    "ground_truth_intent": "hardware_issue",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Physical hardware malfunction requiring repair booking.",
+    "ground_truth_reference_reply": "A stuck trackpad needs a physical inspection. Send us a DM so we can set up a service appointment for you."
+  },
+  {
+    "id": "tweet_125",
+    "incoming_text": "@AppleSupport Is MagSafe charger compatible with iPhone 11?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "MagSafe supports standard Qi charging with iPhone 11, but magnetic alignment is exclusive to iPhone 12 and newer."
+  },
+  {
+    "id": "tweet_126",
+    "incoming_text": "@AppleSupport Delivery driver left $3000 Mac Studio on my driveway in the rain. Box is soaked!!",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "High urgency damaged shipment needing immediate replacement process.",
+    "ground_truth_reference_reply": "We're deeply sorry this happened. Please send us a DM right away with your order number so we can resolve this."
+  },
+  {
+    "id": "tweet_127",
+    "incoming_text": "@AppleSupport I keep getting error code 5001 on iTunes store when buying movie",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Specific error code requiring technical troubleshooting.",
+    "ground_truth_reference_reply": "Let's check what's causing error code 5001. Send us a DM with details about your operating system."
+  },
+  {
+    "id": "tweet_128",
+    "incoming_text": "@AppleSupport Is Final Cut Pro available for iPad Pro M1?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Yes! Final Cut Pro for iPad is compatible with iPad models equipped with the M1 chip or later."
+  },
+  {
+    "id": "tweet_129",
+    "incoming_text": "@AppleSupport card charged $0.99 15 times today in 1 hour. IS MY ACCOUNT HACKED????",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "High urgency/emotion security and fraudulent charges incident.",
+    "ground_truth_reference_reply": "Your account security is our top priority. DM us immediately so we can help secure your account and review charges."
+  },
+  {
+    "id": "tweet_130",
+    "incoming_text": "@AppleSupport My AirTag battery replacement message won't go away even with new CR2032 battery",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Hardware/software status sync glitch requiring support.",
+    "ground_truth_reference_reply": "We can help resolve that battery notification for you. Send us a DM to walk through reset procedures."
+  },
+  {
+    "id": "tweet_131",
+    "incoming_text": "@AppleSupport Can I pick up my online order at Apple Store using a representative instead of me?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Yes, during checkout you can designate a pickup contact who must show a government photo ID at the store."
+  },
+  {
+    "id": "tweet_132",
+    "incoming_text": "@AppleSupport I paid for express shipping 2 day delivery and it's day 5 where is my watch???",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Paid shipping delay and shipping refund inquiry.",
+    "ground_truth_reference_reply": "We want to check on this delay for you. Please DM us your order number and email address."
+  },
+  {
+    "id": "tweet_133",
+    "incoming_text": "@AppleSupport Apple Music family plan shared members can't access music library help",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Family Sharing permissions and subscription setup troubleshooting.",
+    "ground_truth_reference_reply": "Let's get your Family Sharing setup working. DM us and we'll help verify your group settings."
+  },
+  {
+    "id": "tweet_134",
+    "incoming_text": "@AppleSupport Apple Card payment didn't reflect on my balance but funds left my bank",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Financial transaction delay requiring Goldman Sachs / Apple Card verification.",
+    "ground_truth_reference_reply": "We'd be glad to look into your Apple Card payment status. Send us a DM so we can assist securely."
+  },
+  {
+    "id": "tweet_135",
+    "incoming_text": "@AppleSupport my iphone 12 dropped in toilet now sound speaker sounds like a muffled alien lol pls send help",
+    "ground_truth_intent": "hardware_issue",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Noisy input; liquid damage hardware evaluation.",
+    "ground_truth_reference_reply": "Liquid in speakers can cause audio distortion. DM us so we can go over drying advice and service options."
+  },
+  {
+    "id": "tweet_136",
+    "incoming_text": "@AppleSupport What is the weight of the new MacBook Air 15-inch?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "The 15-inch MacBook Air weighs 3.3 pounds (1.51 kg)."
+  },
+  {
+    "id": "tweet_137",
+    "incoming_text": "@AppleSupport Order status says 'Processing' for 10 days straight is this normal??",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Order processing delay inquiry requiring order lookup.",
+    "ground_truth_reference_reply": "We can look into the status of your order. Send us a DM with your order number."
+  },
+  {
+    "id": "tweet_138",
+    "incoming_text": "@AppleSupport my apple TV remote volume buttons stopped working out of nowhere",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Peripherals connection/hardware issue.",
+    "ground_truth_reference_reply": "We can help re-pair or reset your Siri Remote. DM us your Apple TV model to get started."
+  },
+  {
+    "id": "tweet_139",
+    "incoming_text": "@AppleSupport Can I use student discount for Apple Vision Pro?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Education pricing applies to select Mac and iPad products. Check apple.com/us-edu/shop for full details."
+  },
+  {
+    "id": "tweet_140",
+    "incoming_text": "@AppleSupport URGENT!! iCloud locked out because 2FA code sent to lost phone number!! NEED ACCESS NOW",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "High emotion/urgency; account recovery process required.",
+    "ground_truth_reference_reply": "We understand how critical this is. DM us so we can guide you through the Account Recovery steps safely."
+  },
+  {
+    "id": "tweet_141",
+    "incoming_text": "@AppleSupport wrong item received in mail! ordered iPad mini got an Apple Pencil instead???",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Fulfillment error requiring order replacement.",
+    "ground_truth_reference_reply": "We apologize for the mix-up! DM us your order number so we can fix this immediately."
+  },
+  {
+    "id": "tweet_142",
+    "incoming_text": "@AppleSupport billed $99 for AppleCare+ auto renewal that I thought I canceled 6 months ago",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Recurring billing cancellation dispute.",
+    "ground_truth_reference_reply": "Let's check your AppleCare+ coverage and billing details. Send us a DM with your agreement number or Apple ID."
+  },
+  {
+    "id": "tweet_143",
+    "incoming_text": "@AppleSupport iPad mini 6 battery drains 50% overnight on standby mode",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Battery drain diagnostics required.",
+    "ground_truth_reference_reply": "Standby battery drain shouldn't be happening at that rate. DM us your iPadOS version to troubleshoot."
+  },
+  {
+    "id": "tweet_144",
+    "incoming_text": "@AppleSupport How to turn off StandBy mode on iPhone 15?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "You can turn off StandBy by going to Settings > StandBy and toggling the switch off."
+  },
+  {
+    "id": "tweet_145",
+    "incoming_text": "@AppleSupport trade-in box received but phone inside was damaged during transit who is responsible?",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Carrier transit damage claim for trade-in.",
+    "ground_truth_reference_reply": "We can help review the transit damage claim with our courier partners. Please DM us your trade-in quote number."
+  },
+  {
+    "id": "tweet_146",
+    "incoming_text": "@AppleSupport I paid my balance on Apple Card but available credit didn't update",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Credit update delay requiring account inspection.",
+    "ground_truth_reference_reply": "Payment processing times can vary. DM us so we can review your Apple Card account status with you."
+  },
+  {
+    "id": "tweet_147",
+    "incoming_text": "@AppleSupport camera app freezing every time i switch to 0.5x ultra wide lens",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Camera hardware/software malfunction.",
+    "ground_truth_reference_reply": "Camera freezes can be frustrating. DM us your device model and software version so we can assist."
+  },
+  {
+    "id": "tweet_148",
+    "incoming_text": "@AppleSupport Where can I read the full terms for AppleCare+ with Theft and Loss?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "You can review full AppleCare+ Terms and Conditions at apple.com/legal/applecare/applecareplus."
+  },
+  {
+    "id": "tweet_149",
+    "incoming_text": "@AppleSupport fedex delivered package to WRONG STREET address photo shows different house entirely!!",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Misdelivery carrier dispute requiring claim filing.",
+    "ground_truth_reference_reply": "We want to make sure you get your order! Send us a DM with your order number and tracking details."
+  },
+  {
+    "id": "tweet_150",
+    "incoming_text": "@AppleSupport charged $2.99 twice for icloud in same statement why?",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Duplicate transaction verification.",
+    "ground_truth_reference_reply": "We can check your billing history to resolve this double charge. Please DM us your Apple ID email."
+  },
+  {
+    "id": "tweet_151",
+    "incoming_text": "@AppleSupport HomePod mini keeps losing WiFi connection every 10 minutes since update",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Network stability technical issue.",
+    "ground_truth_reference_reply": "Wi-Fi dropping continually is no fun. Send us a DM with your router type and HomePod software version."
+  },
+  {
+    "id": "tweet_152",
+    "incoming_text": "@AppleSupport Does Apple Pencil 2 work with iPad 10th generation?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "iPad (10th gen) supports Apple Pencil (1st gen) and Apple Pencil (USB-C), but not Apple Pencil (2nd gen)."
+  },
+  {
+    "id": "tweet_153",
+    "incoming_text": "@AppleSupport trade in kit shipping label won't scan at UPS dropoff location barcode corrupted",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Returns label reissuance required.",
+    "ground_truth_reference_reply": "We can email you a fresh trade-in shipping label. DM us your quote number and preferred email."
+  },
+  {
+    "id": "tweet_154",
+    "incoming_text": "@AppleSupport can i transfer apple cash to my bank account instantly for free?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Instant Transfer has a 1.5% fee. Standard bank transfers take 1-3 business days and are free."
+  },
+  {
+    "id": "tweet_155",
+    "incoming_text": "@AppleSupport my brand new macbook air screen crack when I closed it on a small piece of paper. UNBELIEVABLE QUALTY",
+    "ground_truth_intent": "hardware_issue",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Noisy input/high emotion; accidental damage evaluation.",
+    "ground_truth_reference_reply": "We know physical damage is distressing. Send us a DM so we can discuss repair options under your warranty or AppleCare+."
+  },
+  {
+    "id": "tweet_156",
+    "incoming_text": "@AppleSupport iTunes gift card code scratched off too hard and missing 4 digits pls help",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Damaged gift card code recovery.",
+    "ground_truth_reference_reply": "We can help recover missing gift card digits. DM us clear photos of the front/back of the card and purchase receipt."
+  },
+  {
+    "id": "tweet_157",
+    "incoming_text": "@AppleSupport blue light on my magsafe Duo charger flashing orange and won't charge watch",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Hardware status indicator error troubleshooting.",
+    "ground_truth_reference_reply": "A flashing orange light indicates a power issue. Send us a DM so we can troubleshoot your MagSafe Duo."
+  },
+  {
+    "id": "tweet_158",
+    "incoming_text": "@AppleSupport What is the maximum storage option available for iPhone 15 Pro Max?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "The iPhone 15 Pro Max is available in storage capacities up to 1TB."
+  },
+  {
+    "id": "tweet_159",
+    "incoming_text": "@AppleSupport UPS returned my order to sender because of address error can you re-ship?",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Delivery failure and reshipment handling.",
+    "ground_truth_reference_reply": "We can help look into re-shipping options. Please DM us your order number and updated address."
+  },
+  {
+    "id": "tweet_160",
+    "incoming_text": "@AppleSupport charged $59.99 for annual app subscription I canceled during trial period!",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "In-app subscription trial refund request.",
+    "ground_truth_reference_reply": "Let's review that trial cancellation together. Send us a DM with your Apple ID to check billing details."
+  },
+  {
+    "id": "tweet_161",
+    "incoming_text": "@AppleSupport macbook speaker buzzing at high volumes listening to music",
+    "ground_truth_intent": "hardware_issue",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Audio distortion hardware failure.",
+    "ground_truth_reference_reply": "Speaker distortion is definitely not expected. DM us your Mac model and macOS version to troubleshoot."
+  },
+  {
+    "id": "tweet_162",
+    "incoming_text": "@AppleSupport how to check battery health on ipad pro 12.9?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "iPadOS doesn't display battery health percentage like iPhone, but support can run remote diagnostics for you."
+  },
+  {
+    "id": "tweet_163",
+    "incoming_text": "@AppleSupport shipment status stuck on 'Label Created' for 6 days now",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Logistics fulfillment delay inquiry.",
+    "ground_truth_reference_reply": "We can investigate why the tracking hasn't updated. DM us your order number and shipping zip code."
+  },
+  {
+    "id": "tweet_164",
+    "incoming_text": "@AppleSupport my apple account got disabled in app store and itunes store for no reason!!",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account access disablement requiring security audit.",
+    "ground_truth_reference_reply": "We know how important account access is. DM us your Apple ID email so we can look into this for you."
+  },
+  {
+    "id": "tweet_165",
+    "incoming_text": "@AppleSupport can i combine two apple store gift cards to buy an ipad?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Yes! You can redeem up to 8 Apple Gift Cards per transaction online or in-store."
+  },
+  {
+    "id": "tweet_166",
+    "incoming_text": "@AppleSupport I WANT A REFUND FOR CYBERPUNK APP IT DOES NOT WORK ON MY PHONE AT ALL WASTE OF MONEY",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Noisy input/high anger; refund process request.",
+    "ground_truth_reference_reply": "We can guide you through the refund process for malfunctioning apps. DM us so we can assist."
+  },
+  {
+    "id": "tweet_167",
+    "incoming_text": "@AppleSupport my airpods pro noise cancellation makes a high pitch squeal when adjusted in ear",
+    "ground_truth_intent": "hardware_issue",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Acoustic feedback hardware issue.",
+    "ground_truth_reference_reply": "High pitched squealing in AirPods Pro can be serviced. DM us so we can check coverage and repair options."
+  },
+  {
+    "id": "tweet_168",
+    "incoming_text": "@AppleSupport trade-in refund went to expired credit card. how do I get my money???",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Refund routing to expired payment card.",
+    "ground_truth_reference_reply": "Don't worry, banks usually route refunds automatically, but DM us your trade-in quote number to verify details."
+  },
+  {
+    "id": "tweet_169",
+    "incoming_text": "@AppleSupport What is the trade in value for iPhone 12 128GB?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Trade-in estimates depend on condition. Check current estimated values at apple.com/shop/trade-in."
+  },
+  {
+    "id": "tweet_170",
+    "incoming_text": "@AppleSupport delivery required signature but no one was home. Will they try again tomorrow?",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Carriers usually attempt delivery 3 times on consecutive business days before holding the item at a facility."
+  },
+  {
+    "id": "tweet_171",
+    "incoming_text": "@AppleSupport bluetooth keeps disconnecting every 5 seconds on my m1 macbook air with mouse",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Bluetooth driver/hardware connectivity drops.",
+    "ground_truth_reference_reply": "Frequent Bluetooth drops can be frustrating. DM us your macOS version to run some quick resets."
+  },
+  {
+    "id": "tweet_172",
+    "incoming_text": "@AppleSupport my child spent $400 on roblox without permission help me please I can't afford rent now",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "High emotional urgency; unauthorized minor purchases refund.",
+    "ground_truth_reference_reply": "We understand this is urgent and stressful. DM us right away so we can help you submit refund requests."
+  },
+  {
+    "id": "tweet_173",
+    "incoming_text": "@AppleSupport How do I turn on Dark Mode on my iPad?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Go to Settings > Display & Brightness, then select Dark to turn it on."
+  },
+  {
+    "id": "tweet_174",
+    "incoming_text": "@AppleSupport trade-in kit return label says pending approval for 4 days",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Trade-in processing status verification.",
+    "ground_truth_reference_reply": "We can check why your trade-in label is pending. Please send us a DM with your trade-in quote number."
+  },
+  {
+    "id": "tweet_175",
+    "incoming_text": "@AppleSupport my brand new iphone 15 back glass cracked in my pocket without dropping it???",
+    "ground_truth_intent": "hardware_issue",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Hardware integrity dispute and repair options.",
+    "ground_truth_reference_reply": "We'd like to help review repair options with you. DM us your iPhone serial number to check coverage."
+  },
+  {
+    "id": "tweet_176",
+    "incoming_text": "@AppleSupport charged for apple tv+ but i have student apple music subscription which includes it free???",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Promotion eligibility and billing correction.",
+    "ground_truth_reference_reply": "The Apple Music Student plan includes Apple TV+ access! DM us your Apple ID so we can look into the charge."
+  },
+  {
+    "id": "tweet_177",
+    "incoming_text": "@AppleSupport iphone stuck on red low battery screen charging all night with original cable",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Charging failure / boot loop hardware troubleshooting.",
+    "ground_truth_reference_reply": "We can walk you through steps to get your iPhone charging again. Send us a DM to start."
+  },
+  {
+    "id": "tweet_178",
+    "incoming_text": "@AppleSupport Do you offer trade in for broken screens?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Yes, devices with damaged screens may still be eligible for trade-in credit or free recycling."
+  },
+  {
+    "id": "tweet_179",
+    "incoming_text": "@AppleSupport can i change shipping address on my order while it is in transit?",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "In-transit address modification restriction check.",
+    "ground_truth_reference_reply": "Address changes depend on shipment status. DM us your order number to see what options are available."
+  },
+  {
+    "id": "tweet_180",
+    "incoming_text": "@AppleSupport I paid my subscription via PayPal but it says payment failed on iPhone",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Third-party payment gateway sync failure.",
+    "ground_truth_reference_reply": "Let's check your payment integration. Send us a DM with your Apple ID email so we can verify."
+  },
+  {
+    "id": "tweet_181",
+    "incoming_text": "@AppleSupport my apple watch screen popped off on its own swelling battery?? is this dangerous??",
+    "ground_truth_intent": "hardware_issue",
+    "ground_truth_escalate": true,
+    "escalation_reason": "High urgency safety hazard; swollen battery repair handling.",
+    "ground_truth_reference_reply": "Please stop charging or using the device safely. DM us immediately so we can prioritize service for you."
+  },
+  {
+    "id": "tweet_182",
+    "incoming_text": "@AppleSupport How to turn on NameDrop in iOS 17?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "NameDrop is on by default! Just hold the top of your iPhone near another iPhone or Apple Watch."
+  },
+  {
+    "id": "tweet_183",
+    "incoming_text": "@AppleSupport ordered 2 macbooks only 1 arrived in box but packing slip says 2 qty!! HELP",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Missing item fulfillment shipment audit.",
+    "ground_truth_reference_reply": "We take missing items very seriously. DM us your order number so we can investigate with warehouse teams."
+  },
+  {
+    "id": "tweet_184",
+    "incoming_text": "@AppleSupport app store says 'Your account has been disabled in the App Store and iTunes' why???",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Security administrative lock out.",
+    "ground_truth_reference_reply": "We can help review your account status. Send us a DM with your Apple ID email to get started."
+  },
+  {
+    "id": "tweet_185",
+    "incoming_text": "@AppleSupport double billed for apple arcade monthly pass on my credit card statement",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Duplicate subscription charge review.",
+    "ground_truth_reference_reply": "We can look into double charges for Apple Arcade. Send us a DM with your transaction details."
+  },
+  {
+    "id": "tweet_186",
+    "incoming_text": "@AppleSupport what is the battery replacement cost for iphone 13 without applecare?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Out-of-warranty battery service for iPhone 13 is currently $89. You can estimate costs at support.apple.com."
+  },
+  {
+    "id": "tweet_187",
+    "incoming_text": "@AppleSupport package carrier dropped off box in bushes in rain box is ruined product wet",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Damaged goods replacement.",
+    "ground_truth_reference_reply": "We apologize for this experience. Please DM us your order number and photos of the damaged package."
+  },
+  {
+    "id": "tweet_188",
+    "incoming_text": "@AppleSupport airpods max left ear cup has static crackling sound when ANC is turned on",
+    "ground_truth_intent": "hardware_issue",
+    "ground_truth_escalate": true,
+    "escalation_reason": "ANC sensor hardware fault.",
+    "ground_truth_reference_reply": "Static sound in ANC mode can be addressed via service. Send us a DM so we can explore repair options."
+  },
+  {
+    "id": "tweet_189",
+    "incoming_text": "@AppleSupport how to cancel icloud subscription from web browser without apple device?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "You can manage subscriptions by logging into support.apple.com/billing or contacting Apple Support directly."
+  },
+  {
+    "id": "tweet_190",
+    "incoming_text": "@AppleSupport payment declined for apple music student subscription verification link broken",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "SheerID verification breakdown and payment decline.",
+    "ground_truth_reference_reply": "We can help you verify student eligibility and update payment. DM us your Apple ID email."
+  },
+  {
+    "id": "tweet_191",
+    "incoming_text": "@AppleSupport macbook air m2 gets super hot and fans noisy while watching youtube",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Thermal / background process diagnostic required.",
+    "ground_truth_reference_reply": "Let's check what processes are running on your Mac. DM us your current macOS version."
+  },
+  {
+    "id": "tweet_192",
+    "incoming_text": "@AppleSupport trade-in box missing courier return label inside. how do I ship it back?",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Missing shipping label generation.",
+    "ground_truth_reference_reply": "We can send you a printable return label. DM us your trade-in quote number and email address."
+  },
+  {
+    "id": "tweet_193",
+    "incoming_text": "@AppleSupport How do I share my Wi-Fi password with a friend's iPhone?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Ensure Wi-Fi/Bluetooth are on for both, unlock your device, and tap 'Share Password' when prompted."
+  },
+  {
+    "id": "tweet_194",
+    "incoming_text": "@AppleSupport bought a $100 gift card at retail store but activation failed at register. HELP!",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Retail activation failure requiring receipt verification.",
+    "ground_truth_reference_reply": "We can look into activation issues with gift cards. Send us a DM with photo of receipt and card."
+  },
+  {
+    "id": "tweet_195",
+    "incoming_text": "@AppleSupport watchOS 10 update ruined my battery life, 100% to dead in 4 hours clean install didn't fix",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Noisy input; watchOS battery drain issue.",
+    "ground_truth_reference_reply": "We hear your concerns about battery drain. DM us your Apple Watch model so we can run remote diagnostics."
+  },
+  {
+    "id": "tweet_196",
+    "incoming_text": "@AppleSupport order status says delivered but carrier says handed to resident. I was at work!!",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Delivery dispute/lost shipment.",
+    "ground_truth_reference_reply": "We want to help figure out what happened to your package. Please DM us your order number."
+  },
+  {
+    "id": "tweet_197",
+    "incoming_text": "@AppleSupport Is AppleCare+ transferable to a new owner if I sell my iPad?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Yes! If you paid upfront for AppleCare+, you can transfer ownership to the buyer."
+  },
+  {
+    "id": "tweet_198",
+    "incoming_text": "@AppleSupport cannot update my credit card info on apple id, keep getting 'invalid payment method' error",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Payment method validation technical error.",
+    "ground_truth_reference_reply": "We can help clear payment errors on your account. Send us a DM to investigate."
+  },
+  {
+    "id": "tweet_199",
+    "incoming_text": "@AppleSupport my iphone 14 pro screen turns green flickers then reboots constantly",
+    "ground_truth_intent": "hardware_issue",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Kernel panic / display hardware failure.",
+    "ground_truth_reference_reply": "Green screen reboots require investigation. DM us your device details so we can check repair options."
+  },
+  {
+    "id": "tweet_200",
+    "incoming_text": "@AppleSupport What is the trade-in deadline after receiving new device?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "You have 14 days from receiving your trade-in kit to send back your old device."
+  },
+  {
+    "id": "tweet_201",
+    "incoming_text": "@AppleSupport ups tracking lost package in transit status hasn't moved in 8 days",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Lost shipment claim investigation.",
+    "ground_truth_reference_reply": "An 8-day delay is concerning. DM us your order number so we can start an investigation with the carrier."
+  },
+  {
+    "id": "tweet_202",
+    "incoming_text": "@AppleSupport my app store balance is $0.15 and I can't change region because of it pls clear it",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Store credit balance clearance for region change.",
+    "ground_truth_reference_reply": "We can help remove remaining store balance for region changes. Send us a DM with your Apple ID."
+  },
+  {
+    "id": "tweet_203",
+    "incoming_text": "@AppleSupport airpods pro case wont charge plugged into wall light stays unlit",
+    "ground_truth_intent": "hardware_issue",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Charging case hardware defect.",
+    "ground_truth_reference_reply": "Let's troubleshoot your charging case issue. DM us your AirPods model and serial number."
+  },
+  {
+    "id": "tweet_204",
+    "incoming_text": "@AppleSupport Can I use dual SIM on iPhone 15 in the US?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Yes! US iPhone 15 models support Dual eSIM, allowing two active phone numbers at once."
+  },
+  {
+    "id": "tweet_205",
+    "incoming_text": "@AppleSupport my macbook pro keyboard key 'E' popped off and hinges snapped off",
+    "ground_truth_intent": "hardware_issue",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Physical keyboard key cap breakdown.",
+    "ground_truth_reference_reply": "We can assist with physical repairs for your keyboard. DM us your MacBook serial number."
+  },
+  {
+    "id": "tweet_206",
+    "incoming_text": "@AppleSupport charged $10.59 for iCloud storage but I downgraded to free 5GB last week!",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Subscription downgrade processing mismatch.",
+    "ground_truth_reference_reply": "Let's check your iCloud storage subscription history. Send us a DM with your Apple ID email."
+  },
+  {
+    "id": "tweet_207",
+    "incoming_text": "@AppleSupport delivery address missing apartment number #4B will carrier return package to sender?",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Address correction request.",
+    "ground_truth_reference_reply": "We can attempt to update delivery instructions. DM us your order number and full correct address right away."
+  },
+  {
+    "id": "tweet_208",
+    "incoming_text": "@AppleSupport How do I turn off autocorrect on iOS 17?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "You can disable autocorrect in Settings > General > Keyboard, then toggle off 'Auto-Correction'."
+  },
+  {
+    "id": "tweet_209",
+    "incoming_text": "@AppleSupport microphone audio on phone calls sounds completely muffled like under water according to callers",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Microphone hardware or audio pathway fault.",
+    "ground_truth_reference_reply": "Muffled call audio can be checked easily. Send us a DM with your iPhone model to troubleshoot."
+  },
+  {
+    "id": "tweet_210",
+    "incoming_text": "@AppleSupport refund request status says 'Completed' but money isn't in my bank account after 10 days",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Refund disbursement timeline review.",
+    "ground_truth_reference_reply": "We can check processing timelines for your refund. Send us a DM with your refund reference number."
+  },
+  {
+    "id": "tweet_211",
+    "incoming_text": "@AppleSupport package arrived completely empty cut open at bottom courier stole my iphone!!",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "High urgency theft/tampered delivery investigation.",
+    "ground_truth_reference_reply": "This is very serious. Please DM us immediately with your order number and photos of the tampered package."
+  },
+  {
+    "id": "tweet_212",
+    "incoming_text": "@AppleSupport How do I clean my Studio Display screen safely?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Use the provided polishing cloth (or dry microfiber cloth for standard glass) with no water or solvents."
+  },
+  {
+    "id": "tweet_213",
+    "incoming_text": "@AppleSupport battery health dropped from 99% to 88% in 3 weeks after update on iphone 15 pro max BROKEN SOFTWARE FIX IT",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Noisy input/high urgency; abnormal battery degradation.",
+    "ground_truth_reference_reply": "Rapid health drops aren't expected. Send us a DM so we can run remote battery diagnostics."
+  },
+  {
+    "id": "tweet_214",
+    "incoming_text": "@AppleSupport why did Apple Card charge $35 late fee when automatic payment failed due to app bug?",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Late fee dispute and payment system review.",
+    "ground_truth_reference_reply": "We'd like to look into your Apple Card billing dispute. Send us a DM to check details."
+  },
+  {
+    "id": "tweet_215",
+    "incoming_text": "@AppleSupport How long does trade-in inspection take after delivery?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Trade-in inspections are usually completed within 2 to 5 business days after receipt."
+  },
+  {
+    "id": "tweet_216",
+    "incoming_text": "@AppleSupport my trade-in return box arrived crushed and open at warehouse will I lose my trade credit???",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Damaged return trade-in assessment.",
+    "ground_truth_reference_reply": "We can help track your trade-in condition assessment. Send us a DM with your quote number."
+  },
+  {
+    "id": "tweet_217",
+    "incoming_text": "@AppleSupport face id says 'Move iPhone lower... Move iPhone higher...' loops forever and fails",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "TrueDepth camera sensor calibration hardware error.",
+    "ground_truth_reference_reply": "TrueDepth sensor issues can be evaluated by our support team. DM us to start troubleshooting."
+  },
+  {
+    "id": "tweet_218",
+    "incoming_text": "@AppleSupport my subscription billed under old Apple ID email I can't login to anymore",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Subscription management on orphaned Apple ID.",
+    "ground_truth_reference_reply": "We can help you regain access or locate subscription details. Send us a DM to start."
+  },
+  {
+    "id": "tweet_219",
+    "incoming_text": "@AppleSupport Is original purchase receipt required for AppleCare+ claims?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "In most cases, your coverage is linked digitally to your device serial number and receipt isn't required."
+  },
+  {
+    "id": "tweet_220",
+    "incoming_text": "@AppleSupport delivery driver refused to wait for signature and left with my macbook now status is rescheduled",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Missed carrier signature redelivery.",
+    "ground_truth_reference_reply": "We can help review redelivery options or hold at carrier location. DM us your order number."
+  },
+  {
+    "id": "tweet_221",
+    "incoming_text": "@AppleSupport my screen stays completely black during phone calls so I can't hang up or enter numbers on keypad",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Proximity sensor failure during voice calls.",
+    "ground_truth_reference_reply": "Proximity sensor issues can make calls tricky. Send us a DM with your iPhone model to troubleshoot."
+  },
+  {
+    "id": "tweet_222",
+    "incoming_text": "@AppleSupport can i pay for AppleCare+ monthly using Apple Account Balance?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Yes! Monthly AppleCare+ payments can be charged against your Apple Account balance."
+  },
+  {
+    "id": "tweet_223",
+    "incoming_text": "@AppleSupport pending charge of $1.00 on my credit card from Apple refusing to clear after 2 weeks",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Pending authorization hold status verification.",
+    "ground_truth_reference_reply": "Authorization holds usually drop off quickly. Send us a DM so we can verify the pending charge status."
+  },
+  {
+    "id": "tweet_224",
+    "incoming_text": "@AppleSupport my order tracking link in email returns 404 error page",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Broken order tracking reference.",
+    "ground_truth_reference_reply": "We can check your tracking details directly for you. Send us a DM with your order number."
+  },
+  {
+    "id": "tweet_225",
+    "incoming_text": "@AppleSupport macbook air m1 battery health degraded to 79% under 100 cycles is this covered?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Batteries below 80% capacity within 1 year warranty or AppleCare+ coverage are eligible for service."
+  },
+  {
+    "id": "tweet_226",
+    "incoming_text": "@AppleSupport my airpods max headband mesh ripped completely in half after 2 months normal use",
+    "ground_truth_intent": "hardware_issue",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Physical component defect/damage.",
+    "ground_truth_reference_reply": "We want to review this physical defect with you. Please DM us your serial number."
+  },
+  {
+    "id": "tweet_227",
+    "incoming_text": "@AppleSupport can i ask my order to be held at FedEx OnSite pick up location?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "You can request a hold for pickup directly through FedEx Delivery Manager once shipped."
+  },
+  {
+    "id": "tweet_228",
+    "incoming_text": "@AppleSupport app store purchases failing with 'Contact iTunes Support to complete transaction'",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Account-level security purchasing hold.",
+    "ground_truth_reference_reply": "We can help clear account-level purchase holds. Please DM us your Apple ID email."
+  },
+  {
+    "id": "tweet_229",
+    "incoming_text": "@AppleSupport my iphone battery swelling pushing screen away from frame PLS ADVISE FAST",
+    "ground_truth_intent": "hardware_issue",
+    "ground_truth_escalate": true,
+    "escalation_reason": "High urgency battery thermal event / swelling safety hazard.",
+    "ground_truth_reference_reply": "Please unplug and stop using the device safely. Send us a DM right away so we can arrange immediate service."
+  },
+  {
+    "id": "tweet_230",
+    "incoming_text": "@AppleSupport How do I reset my AirPods Pro back to factory settings?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Place AirPods in case, open lid, press/hold setup button on back for 15 sec until light flashes amber then white."
+  },
+  {
+    "id": "tweet_231",
+    "incoming_text": "@AppleSupport trade-in final credit was issued as gift card instead of refund to credit card why???",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Trade-in refund payment method dispute.",
+    "ground_truth_reference_reply": "We can explain trade-in payment routing rules. Send us a DM with your trade-in quote number."
+  },
+  {
+    "id": "tweet_232",
+    "incoming_text": "@AppleSupport ordered new imac but delivery date changed 3 times now pushing it back 1 month",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Shipment fulfillment delay tracking.",
+    "ground_truth_reference_reply": "We understand date changes are frustrating. DM us your order number so we can check stock details."
+  },
+  {
+    "id": "tweet_233",
+    "incoming_text": "@AppleSupport apple watch ultra side button non responsive stuck inward feels spongy",
+    "ground_truth_intent": "hardware_issue",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Physical digital crown / action button failure.",
+    "ground_truth_reference_reply": "Physical button failures can be repaired. Send us a DM so we can look at service options."
+  },
+  {
+    "id": "tweet_234",
+    "incoming_text": "@AppleSupport What devices support spatial audio with dynamic head tracking?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "AirPods Pro, AirPods Max, and AirPods (3rd gen) support dynamic head tracking with compatible Apple devices."
+  },
+  {
+    "id": "tweet_235",
+    "incoming_text": "@AppleSupport refund requested on Sept 1st still says 'Pending' on reportaproblem.apple.com",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Delayed refund approval status check.",
+    "ground_truth_reference_reply": "We can check the review status of your refund request. Send us a DM with your claim number."
+  },
+  {
+    "id": "tweet_236",
+    "incoming_text": "@AppleSupport trade in kit sent with wrong address printed on shipping label!!",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Incorrect return shipping destination address.",
+    "ground_truth_reference_reply": "We can assist with corrected shipping documents. DM us your trade-in quote number."
+  },
+  {
+    "id": "tweet_237",
+    "incoming_text": "@AppleSupport my macbook display hinge is super loose and closes on its own at 45 degree angle",
+    "ground_truth_intent": "hardware_issue",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Physical mechanical enclosure issue.",
+    "ground_truth_reference_reply": "Loose display hinges can be adjusted or repaired. DM us your Mac model to check service options."
+  },
+  {
+    "id": "tweet_238",
+    "incoming_text": "@AppleSupport How do I turn on Lockdown Mode on iOS 17?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "You can turn on Lockdown Mode in Settings > Privacy & Security > Lockdown Mode."
+  },
+  {
+    "id": "tweet_239",
+    "incoming_text": "@AppleSupport I was charged $99 for AppleCare+ but I selected monthly billing during checkout",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Incorrect term billing selection correction.",
+    "ground_truth_reference_reply": "We can help modify your AppleCare+ payment plan. Please send us a DM with your agreement number."
+  },
+  {
+    "id": "tweet_240",
+    "incoming_text": "@AppleSupport order status says 'Action Required' on payment method but my card has no issues",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Order payment hold requiring review.",
+    "ground_truth_reference_reply": "We can review the payment status hold on your order. DM us your order number."
+  },
+  {
+    "id": "tweet_241",
+    "incoming_text": "@AppleSupport camera lenses on back of my iphone 15 pro fogging up internally from inside lens glass",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Internal enclosure seal compromise / moisture ingress.",
+    "ground_truth_reference_reply": "Internal condensation requires physical inspection. DM us to review service options."
+  },
+  {
+    "id": "tweet_242",
+    "incoming_text": "@AppleSupport What is the trade-in return window for holiday purchases?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Holiday trade-in return deadlines align with extended holiday return policies published each season on apple.com."
+  },
+  {
+    "id": "tweet_243",
+    "incoming_text": "@AppleSupport charged $0.99 for icloud on 3 different accounts under my family share how to consolidate?",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Family storage plan consolidation advice.",
+    "ground_truth_reference_reply": "We can guide you on sharing a single storage plan across Family Sharing. Send us a DM to start."
+  },
+  {
+    "id": "tweet_244",
+    "incoming_text": "@AppleSupport courier claims delivery signature was obtained from 'J. Smith' NO ONE BY THAT NAME LIVES HERE",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Fraudulent/misdelivered signature dispute.",
+    "ground_truth_reference_reply": "We take signature mismatches very seriously. DM us your order number so we can investigate immediately."
+  },
+  {
+    "id": "tweet_245",
+    "incoming_text": "@AppleSupport iPad screen touch ghost inputs tap on apps on its own unusable ghost touching",
+    "ground_truth_intent": "hardware_issue",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Digitizer touch hardware defect.",
+    "ground_truth_reference_reply": "Ghost touch issues can indicate a digitizer defect. DM us your iPad serial number."
+  },
+  {
+    "id": "tweet_246",
+    "incoming_text": "@AppleSupport What is the warranty length on official Apple refurbished products?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Apple Certified Refurbished products come with a 1-year limited warranty and standard return policy."
+  },
+  {
+    "id": "tweet_247",
+    "incoming_text": "@AppleSupport subscription renewal receipt sent to email but app still says expired account tier",
+    "ground_truth_intent": "technical",
+    "ground_truth_escalate": true,
+    "escalation_reason": "In-app receipt validation sync error.",
+    "ground_truth_reference_reply": "Let's restore your purchase receipt in app settings. DM us if restoring purchases doesn't work."
+  },
+  {
+    "id": "tweet_248",
+    "incoming_text": "@AppleSupport trade in value reduced from $450 to $0 because they said non-genuine screen used BUT I NEVER REPAIRED IT!!",
+    "ground_truth_intent": "shipping",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Noisy input/high emotion; trade-in inspection dispute.",
+    "ground_truth_reference_reply": "We hear your concern regarding the trade-in inspection result. DM us your trade-in quote number so we can appeal."
+  },
+  {
+    "id": "tweet_249",
+    "incoming_text": "@AppleSupport how to disable AirDrop from everyone on my phone?",
+    "ground_truth_intent": "general_inquiry",
+    "ground_truth_escalate": false,
+    "escalation_reason": null,
+    "ground_truth_reference_reply": "Go to Settings > General > AirDrop, and select 'Receiving Off' or 'Contacts Only'."
+  },
+  {
+    "id": "tweet_250",
+    "incoming_text": "@AppleSupport charged $4.99 for apple news+ trial that was advertised as 3 months free!! SCAM",
+    "ground_truth_intent": "billing",
+    "ground_truth_escalate": true,
+    "escalation_reason": "Noisy input; promotional trial billing error.",
+    "ground_truth_reference_reply": "We can look into promotional trial application errors on your account. Send us a DM with your Apple ID."
+  }
+]

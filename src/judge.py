@@ -20,7 +20,7 @@ Respond with only JSON in this exact format:
 
 def judge_reply(customer_message, agent_reply):
     prompt = JUDGE_PROMPT.format(customer_message=customer_message, agent_reply=agent_reply)
-    raw = chat(prompt, model=config.GROQ_JUDGE_MODEL, max_tokens=150, temperature=0)
+    raw = chat(prompt, model=config.GROQ_JUDGE_MODEL, max_tokens=600, temperature=0, reasoning_effort="none")
     cleaned = raw.strip().strip("```json").strip("```").strip()
     try:
         return json.loads(cleaned)

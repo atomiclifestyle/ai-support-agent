@@ -35,7 +35,7 @@ class RagIndex:
             "but write a fresh reply for the new message. Keep it under 280 characters.\n\n"
             f"{context}\n\nNew customer message: {customer_message}\nReply:"
         )
-        reply = chat(prompt, model=config.GROQ_MODEL, max_tokens=120)
+        reply = chat(prompt, model=config.GROQ_MODEL, max_tokens=600, reasoning_effort="none")
         return reply.strip(), retrieved, top_similarity
 
 

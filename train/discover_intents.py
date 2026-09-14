@@ -10,17 +10,43 @@ from sklearn.cluster import KMeans
 import config
 from utils.embeddings import embed_texts
 from utils.groq_client import chat
+import json
+import re
+
+def extract_label(raw_text):
+    cleaned = raw_text.strip()
+    if cleaned.startswith("```"):
+        cleaned = cleaned.strip("`")
+        cleaned = cleaned.split("\n", 1)[-1] if "\n" in cleaned else cleaned
+
+    try:
+        parsed = json.loads(cleaned)
+        label = parsed.get("label", "")
+        if label:
+            return re.sub(r"[^a-zA-Z0-9\s_-]", "", label).strip().lower().replace(" ", "_").replace("-", "_")
+    except (json.JSONDecodeError, AttributeError):
+        pass
+
+    matches = re.findall(r'"([a-zA-Z0-9_\- ]{3,40})"', cleaned)
+    for match in reversed(matches):
+        if match.lower() not in ("label",):
+            return re.sub(r"[^a-zA-Z0-9\s_-]", "", match).strip().lower().replace(" ", "_").replace("-", "_")
+
+    return ""
 
 
 def label_cluster(samples):
     prompt = (
-        "Below are customer support messages that were grouped together because "
-        "they are similar. Return a short snake_case intent label (2-4 words) "
-        "that captures the shared theme. Reply with only the label, nothing else.\n\n"
+        "Below are customer support messages grouped together because they are "
+        "similar. Respond with ONLY a JSON object, no other text. "
+        "For example: {\"label\": \"battery_life_complaint\"}\n\n"
         + "\n".join(f"- {s}" for s in samples)
     )
-    label = chat(prompt, model=config.GROQ_MODEL, max_tokens=20)
-    return label.strip().lower().replace(" ", "_").replace("-", "_")
+    raw = chat(prompt, model=config.GROQ_LABEL_MODEL, max_tokens=40, temperature=0)
+    label = extract_label(raw)
+    if not label:
+        raise ValueError(f"could not extract a usable intent label from: {raw!r}")
+    return label
 
 
 def discover(pairs_path=config.BRAND_PAIRS_PATH, n_clusters=config.N_INTENT_CLUSTERS):

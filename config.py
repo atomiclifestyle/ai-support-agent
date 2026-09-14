@@ -17,11 +17,12 @@ EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 BASE_BERT_MODEL = "bert-base-uncased"
 N_INTENT_CLUSTERS = 10
 
-GROQ_MODEL = "openai/gpt-oss-120b"
-GROQ_JUDGE_MODEL = "openai/gpt-oss-120b"
+GROQ_MODEL = "qwen/qwen3.6-27b"
+GROQ_JUDGE_MODEL = "qwen/qwen3.6-27b"
+GROQ_LABEL_MODEL="allam-2-7b"
 
-INTENT_CONFIDENCE_THRESHOLD = 0.55
-RETRIEVAL_SIMILARITY_THRESHOLD = 0.45
+INTENT_CONFIDENCE_THRESHOLD = 0.25
+RETRIEVAL_SIMILARITY_THRESHOLD = 0.35
 
 RISK_INTENTS = {
     "account_security_issue",
@@ -32,3 +33,8 @@ RISK_INTENTS = {
 
 MAX_SAMPLE_ROWS = 40000
 RAG_TOP_K = 3
+
+BANKING77_TRAIN_CSV = os.path.join(BANKING77_DIR, "train.csv")
+BANKING77_TEST_CSV = os.path.join(BANKING77_DIR, "test.csv")
+BANKING77_MODEL_DIR = os.path.join(MODELS_DIR, "bert_banking77_pretrained")
+FREEZE_ENCODER_EXCEPT_LAST = True

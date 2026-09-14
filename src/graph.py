@@ -41,6 +41,7 @@ def build_graph(intent_classifier: IntentClassifier, rag_index: RagIndex):
 
     def generate_response_node(state: AgentState):
         reply, retrieved, top_similarity = rag_index.generate_reply(state["customer_message"])
+        print(reply)
         return {
             "agent_reply": reply,
             "retrieved": retrieved,

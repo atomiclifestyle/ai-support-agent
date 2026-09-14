@@ -7,7 +7,7 @@ from src.graph import build_graph
 from src.intent_classifier import IntentClassifier
 from src.rag import RagIndex
 
-st.set_page_config(page_title="AI Support Agent", page_icon="🎧", layout="centered")
+st.set_page_config(page_title="AI Support Agent", page_icon="", layout="centered")
 
 
 @st.cache_resource
@@ -19,8 +19,8 @@ def load_pipeline():
 
 app = load_pipeline()
 
-st.title("🎧 AI Support Agent")
-st.caption("Intent classification -> RAG reply generation -> escalation decision")
+st.title("AI Support Agent")
+# st.caption("Intent classification -> RAG reply generation -> escalation decision")
 
 message = st.text_area("Customer message", height=110, placeholder="Type a customer tweet...")
 run = st.button("Run", type="primary", use_container_width=True)
